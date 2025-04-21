@@ -31,7 +31,9 @@ b {
   color: white;
   text-decoration: none;
 }
-
+b:hover {
+  text-decoration: underline;
+}
 /* Main content */
 main {
   max-width: 1200px;
