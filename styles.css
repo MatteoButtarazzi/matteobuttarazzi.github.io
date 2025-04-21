@@ -65,7 +65,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: white;
   margin: 0 15px;
   font-size: 1.2rem;
   padding: 10px;
@@ -73,7 +73,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #1abc9c; /* You can change this color to match your theme */
+  color: white; /* You can change this color to match your theme */
 }
 
 
