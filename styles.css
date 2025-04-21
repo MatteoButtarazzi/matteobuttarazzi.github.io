@@ -27,6 +27,11 @@ header p {
   margin-top: 0.5rem;
 }
 
+b {
+  color: white;
+  text-decoration: none;
+}
+
 /* Main content */
 main {
   max-width: 1200px;
