@@ -13,7 +13,7 @@ body {
 
 /* Header styles */
 header {
-  background-image: url('assets/images/header.jpg'); /* Update with your image name */
+  background-image: url('../images/header.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,6 +21,7 @@ header {
   text-align: center;
   color: white;
 }
+
 
 
 header h1 {
