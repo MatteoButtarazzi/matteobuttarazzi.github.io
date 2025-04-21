@@ -1,0 +1,75 @@
+/* Reset + Cayman font stack */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  background-color: #f6f8fa;
+  color: #24292e;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #1abc9c;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+}
+header h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+header p {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Section styling */
+section {
+  padding: 2rem 0;
+}
+section h2 {
+  border-bottom: 2px solid #eaecef;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  color: #0366d6;
+}
+
+/* Links */
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #586069;
+  font-size: 0.9rem;
+}
+
+/* Project list */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  margin-bottom: 0.75rem;
+}
