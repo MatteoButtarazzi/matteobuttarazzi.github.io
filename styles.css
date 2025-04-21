@@ -27,13 +27,6 @@ header p {
   margin-top: 0.5rem;
 }
 
-b {
-  color: white;
-  text-decoration: none;
-}
-b:hover {
-  text-decoration: underline;
-}
 /* Main content */
 main {
   max-width: 1200px;
@@ -63,6 +56,26 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Navigation Bar */
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #1abc9c; /* You can change this color to match your theme */
+}
+
 
 /* Footer */
 footer {
