@@ -13,7 +13,7 @@ body {
 
 /* Header styles */
 header {
-  background-image: url('https://drive.google.com/file/d/15oVYhU7wmSc7vvHDM3UF1sjseiSd2sNM/view?usp=sharing');
+  background-image: url('https://drive.google.com/uc?export=view&id=15oVYhU7wmSc7vvHDM3UF1sjseiSd2sNM');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,6 +21,7 @@ header {
   text-align: center;
   color: white;
 }
+
 header h1 {
   font-size: 3rem;
   font-weight: 600;
