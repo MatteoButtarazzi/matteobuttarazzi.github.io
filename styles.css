@@ -13,7 +13,10 @@ body {
 
 /* Header styles */
 header {
-  background: linear-gradient(135deg, #1abc9c, #16a085);
+  background-image: url('https://drive.google.com/file/d/15oVYhU7wmSc7vvHDM3UF1sjseiSd2sNM/view?usp=sharing');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 4rem 2rem;
   text-align: center;
   color: white;
