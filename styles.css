@@ -12,15 +12,15 @@ body {
 
 @media (max-width: 600px) {
   body {
-    font-size: 14px; /* or even 13px, adjust as needed */
+    font-size: 13px; /* or even 13px, adjust as needed */
   }
 
   h1, h2, h3 {
-    font-size: 1.2em; /* or any appropriate smaller value */
+    font-size: 1em; /* or any appropriate smaller value */
   }
 
   p {
-    font-size: 0.95em;
+    font-size: 0.85em;
   }
 }
 
