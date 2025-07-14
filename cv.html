@@ -8,16 +8,19 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <header>
-  <div class="container">
+  <header>
+    <button id="menu-btn" aria-label="Toggle menu">&#9776;</button>
     <h1>Matteo Buttarazzi</h1>
-    <nav>
-      <a href="index.html">Home</a> 
-      <a href="cv.html">Curriculum Vitae</a> 
-      <a href="research.html">Research</a>
-    </nav>
-  </div>
-</header>
+    <div id="sidebar">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="cv.html">Curriculum Vitae</a>
+        <a href="research.html">Research</a>
+      </nav>
+    </div>
+  </header>
+  <div id="overlay"></div>
+
 
   <main>
     <section>
@@ -38,6 +41,21 @@
       <p>You can download my full CV <a href="assets/cv.pdf" target="_blank">here</a>.</p>
     </section>
   </main>
+
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('overlay');
+
+  function toggleMenu() {
+    sidebar.classList.toggle('open');
+    overlay.classList.toggle('show');
+  }
+
+  menuBtn.addEventListener('click', toggleMenu);
+  overlay.addEventListener('click', toggleMenu);
+</script>
+
   
 </body>
 </html>
