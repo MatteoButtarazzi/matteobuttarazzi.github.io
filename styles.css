@@ -105,12 +105,13 @@ li {
 
   nav {
     flex-direction: column !important;
-    gap: 4px !important;
+    gap: 2px !important;       /* smaller gap between links */
     margin-top: 6px !important;
+    align-items: center;       /* center the links */
   }
 
   nav a {
     font-size: 0.75rem !important;
-    padding: 4px 8px !important;
+    padding: 2px 8px !important; /* less vertical padding */
   }
 }
