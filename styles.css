@@ -12,18 +12,15 @@ body {
 
 @media (max-width: 600px) {
   body {
-    font-size: 14px; /* or even 13px, adjust as needed */
+    font-size: 1rem; /* Base size, usually 16px */
   }
-  h1 {
-    font-size: 0.85em; /* About 20.8px (13 × 1.6) */
-  }
-
-  h2, h3 {
-    font-size: 1em; /* or any appropriate smaller value */
-  }
-
+  
   p {
-    font-size: 0.95em;
+    font-size: 0.95rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
   }
 }
 
