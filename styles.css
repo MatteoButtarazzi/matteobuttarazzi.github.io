@@ -13,22 +13,22 @@ body {
 
 @media (max-width: 600px) {
   header {
-    padding: 2rem 1rem; /* reduce top/bottom padding */
+    padding: 1rem 1rem; /* reduce top/bottom padding */
   }
 
   header h1 {
-    font-size: 2rem; /* reduce font size */
+    font-size: 1rem; /* reduce font size */
   }
 
   nav {
     flex-direction: column; /* stack nav links vertically */
-    gap: 10px;
-    margin-top: 15px;
+    gap: 8px;
+    margin-top: 10px;
   }
 
   nav a {
-    font-size: 1rem; /* smaller text */
-    padding: 8px 12px;
+    font-size: 0.95rem; /* smaller text */
+    padding: 6px 10px;
   }
 }
 
