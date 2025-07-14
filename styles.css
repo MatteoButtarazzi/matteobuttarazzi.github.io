@@ -14,8 +14,11 @@ body {
   body {
     font-size: 13px; /* or even 13px, adjust as needed */
   }
+  h1 {
+    font-size: 0.85em; /* About 20.8px (13 × 1.6) */
+  }
 
-  h1, h2, h3 {
+  h2, h3 {
     font-size: 1em; /* or any appropriate smaller value */
   }
 
