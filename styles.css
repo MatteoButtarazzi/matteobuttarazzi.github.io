@@ -10,29 +10,6 @@ body {
   line-height: 1.6;
 }
 
-
-@media (max-width: 600px) {
-  header {
-    padding: 1rem 1rem; /* reduce top/bottom padding */
-  }
-
-  header h1 {
-    font-size: 1rem; /* reduce font size */
-  }
-
-  nav {
-    flex-direction: column; /* stack nav links vertically */
-    gap: 8px;
-    margin-top: 10px;
-  }
-
-  nav a {
-    font-size: 0.95rem; /* smaller text */
-    padding: 6px 10px;
-  }
-}
-
-
 /* Header styles */
 header {
   background-color: #006699;
@@ -115,3 +92,25 @@ ul {
 li {
   margin-bottom: 0.15rem;
 }
+
+@media (max-width: 600px) {
+  header {
+    padding: 1rem 1rem; /* reduce top/bottom padding */
+  }
+
+  header h1 {
+    font-size: 1rem; /* reduce font size */
+  }
+
+  nav {
+    flex-direction: column; /* stack nav links vertically */
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  nav a {
+    font-size: 0.95rem; /* smaller text */
+    padding: 6px 10px;
+  }
+}
+
