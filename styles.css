@@ -10,17 +10,25 @@ body {
   line-height: 1.6;
 }
 
+
 @media (max-width: 600px) {
-  body {
-    font-size: 1rem; /* Base size, usually 16px */
+  header {
+    padding: 2rem 1rem; /* reduce top/bottom padding */
   }
-  
-  p {
-    font-size: 0.95rem;
+
+  header h1 {
+    font-size: 2rem; /* reduce font size */
   }
-  
-  h1 {
-    font-size: 1.8rem;
+
+  nav {
+    flex-direction: column; /* stack nav links vertically */
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  nav a {
+    font-size: 1rem; /* smaller text */
+    padding: 8px 12px;
   }
 }
 
