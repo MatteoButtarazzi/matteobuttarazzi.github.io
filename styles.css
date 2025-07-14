@@ -10,6 +10,21 @@ body {
   line-height: 1.6;
 }
 
+@media (max-width: 600px) {
+  body {
+    font-size: 14px; /* or even 13px, adjust as needed */
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2em; /* or any appropriate smaller value */
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+}
+
+
 /* Header styles */
 header {
   background-color: #006699;
