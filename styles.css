@@ -114,3 +114,13 @@ margin-bottom: 20px;
 list-style-type: square;
 margin-left: 20px;
 }
+
+/* Authors */
+.author-link {
+  color: inherit;        
+  text-decoration: underline;
+}
+
+.author-link:hover {
+  text-decoration: underline;
+}
