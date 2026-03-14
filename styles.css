@@ -92,3 +92,23 @@ ul {
 li {
   margin-bottom: 0.15rem;
 }
+
+/* Publications */
+.pub-list {
+list-style-type: square;
+margin-left: 20px;
+}
+
+.pub-list li {
+margin-bottom: 14px;
+line-height: 1.5;
+}
+
+.journal {
+color: #555;
+}
+
+.research-list {
+list-style-type: square;
+margin-left: 20px;
+}
