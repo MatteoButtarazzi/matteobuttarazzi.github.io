@@ -187,16 +187,16 @@ margin-left: 20px;
   cursor: pointer;
   font-size: 0.9em;
   color: #444;
-  margin: 0;
+  margin: 0 0 0 6px;
   padding: 0;
+}
+
+.pub-list summary::marker {
+  content: "";
 }
 
 .pub-list summary::-webkit-details-marker {
   display: none;
-}
-
-.pub-list details p {
-  margin: 4px 0 0 0;
 }
 
 .pub-list summary::after {
@@ -205,4 +205,8 @@ margin-left: 20px;
 
 .pub-list details[open] summary::after {
   content: " [−]";
+}
+
+.pub-list details p {
+  margin: 4px 0 0 0;
 }
