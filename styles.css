@@ -174,3 +174,19 @@ margin-left: 20px;
     width: 100%;
   }
 }
+
+.pub-list details {
+  margin-top: 4px;   /* brings it closer to the paper */
+  margin-bottom: 6px;
+}
+
+.pub-list summary {
+  cursor: pointer;
+  font-size: 0.9em;  /* slightly smaller than main text */
+  color: #444;       /* softer, less dominant */
+}
+
+.pub-list details p {
+  margin: 4px 0 0 0; /* removes big gap inside */
+  font-size: 0.95em;
+}
