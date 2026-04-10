@@ -177,18 +177,15 @@ margin-left: 20px;
 
 /* Abstract */
 .pub-list details {
-  margin: 0;
-  padding: 0;
+  margin: -6px 0 0 0;   /* move it UP (adjust -4px to -8px if needed) */
 }
 
 .pub-list summary {
   display: inline;
-  list-style: none;
-  cursor: pointer;
+  margin-left: 6px;
   font-size: 0.9em;
   color: #444;
-  margin: 0 0 0 6px;
-  padding: 0;
+  cursor: pointer;
 }
 
 .pub-list summary::marker {
