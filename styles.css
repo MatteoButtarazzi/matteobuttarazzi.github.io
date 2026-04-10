@@ -107,7 +107,7 @@ line-height: 1.5;
 .journal {
 color: #222;
 display: block;
-margin-bottom: 20px;
+margin-bottom: 4px;
 }
 
 .research-list {
@@ -176,10 +176,6 @@ margin-left: 20px;
 }
 
 /* Abstract */
-.pub-list details {
-  margin: -6px 0 0 0;   /* move it UP (adjust -4px to -8px if needed) */
-}
-
 .pub-list summary {
   display: inline;
   margin-left: 6px;
