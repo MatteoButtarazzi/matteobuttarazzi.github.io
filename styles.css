@@ -182,11 +182,14 @@ margin-left: 20px;
 
 .pub-list summary {
   cursor: pointer;
-  font-size: 0.9em;  /* slightly smaller than main text */
-  color: #444;       /* softer, less dominant */
+  font-size: 0.9em;
+  color: #444;
 }
 
-.pub-list details p {
-  margin: 4px 0 0 0; /* removes big gap inside */
-  font-size: 0.95em;
+.pub-list summary::after {
+  content: " [+]";
+}
+
+.pub-list details[open] summary::after {
+  content: " [–]";
 }
