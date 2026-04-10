@@ -179,6 +179,7 @@ margin-left: 20px;
 .pub-list summary {
   display: inline;
   margin-left: 6px;
+  margin-bottom: 4px;
   font-size: 0.9em;
   color: #444;
   cursor: pointer;
