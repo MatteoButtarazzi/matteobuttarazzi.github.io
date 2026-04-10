@@ -179,8 +179,7 @@ margin-left: 20px;
 .pub-list summary {
   display: inline;
   margin-left: 6px;
-  margin-right: 26px;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
   font-size: 0.9em;
   color: #444;
   cursor: pointer;
@@ -203,5 +202,6 @@ margin-left: 20px;
 }
 
 .pub-list details p {
-  margin: 4px 0 0 0;
+  max-width: 650px;   
+  margin-top: 4px;
 }
