@@ -255,29 +255,34 @@ a:hover {
   border-radius: 4px;
   text-decoration: none;
   margin-right: 4px;
+
+  background-color: #fff;
 }
 
-/* Journal article */
+/* Journal article — soft blue */
 .badge {
-  border: 1px solid #b8d7e8;
-  background-color: #eef7fb;
-  color: #3d6f89;
+  border: 1px solid #8fbfd6;
+  color: #4f7f98;
 }
 
 .badge:hover {
-  background-color: #e2f1f7;
+  background-color: #fff;
+  border-color: #6fa8c2;
+  color: #3f6f87;
   text-decoration: none;
 }
 
-/* ArXiv */
+/* ArXiv — soft red */
 .badge-arxiv {
-  border-color: #e3bcbc;
-  background-color: #fbefef;
-  color: #9b5a5a;
+  border-color: #d6a0a0;
+  color: #a06464;
+  background-color: #fff;
 }
 
 .badge-arxiv:hover {
-  background-color: #f6e3e3;
+  border-color: #c78484;
+  color: #8d5050;
+  background-color: #fff;
 }
 
 /* Badges 
