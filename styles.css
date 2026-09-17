@@ -349,3 +349,149 @@ footer {
     gap: 1.5rem;
   }
 }
+
+/* =========================================================
+   CV PAGE
+   ========================================================= */
+
+
+/* ---------- CV heading + download button ---------- */
+
+.cv-heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.cv-heading-text {
+  min-width: 0;
+}
+
+
+/* ---------- Download CV button ---------- */
+
+.cv-download-button {
+  flex-shrink: 0;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.75rem 1.25rem;
+
+  border: 1px solid currentColor;
+  border-radius: 999px;
+
+  color: inherit;
+  background: transparent;
+
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1;
+
+  text-decoration: none;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.cv-download-button:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   CV ENTRIES
+   ========================================================= */
+
+/*
+   IMPORTANT:
+
+   The date and description are now two completely separate
+   columns.
+
+   Therefore, when the description wraps onto a second line,
+   it stays aligned with the description and DOES NOT move
+   underneath the year.
+*/
+
+.cv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-list li {
+  display: grid;
+
+  /*
+     First column = date
+     Second column = description
+  */
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+
+  column-gap: 1.5rem;
+
+  align-items: start;
+}
+
+
+/* date */
+
+.cv-list .period {
+  white-space: nowrap;
+}
+
+
+/* description */
+
+.cv-entry-text {
+  min-width: 0;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .cv-heading-row {
+    gap: 1rem;
+  }
+
+  .cv-download-button {
+    padding: 0.65rem 0.9rem;
+    font-size: 0.85rem;
+  }
+
+  .cv-list li {
+    grid-template-columns: 7.5rem minmax(0, 1fr);
+    column-gap: 1rem;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .cv-list li {
+    /*
+       Still TWO columns on phones.
+       We deliberately do NOT stack the date above the text.
+    */
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+    column-gap: 0.75rem;
+  }
+
+  .cv-download-button {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+}
