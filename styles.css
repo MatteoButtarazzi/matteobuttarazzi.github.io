@@ -246,7 +246,41 @@ a:hover {
   margin-top: 0.3rem;
 }
 
-/* Badges */
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.75em;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 4px;
+}
+
+/* Journal article */
+.badge {
+  border: 1px solid #b8d7e8;
+  background-color: #eef7fb;
+  color: #3d6f89;
+}
+
+.badge:hover {
+  background-color: #e2f1f7;
+  text-decoration: none;
+}
+
+/* ArXiv */
+.badge-arxiv {
+  border-color: #e3bcbc;
+  background-color: #fbefef;
+  color: #9b5a5a;
+}
+
+.badge-arxiv:hover {
+  background-color: #f6e3e3;
+}
+
+/* Badges 
 .badge {
   display: inline-block;
   padding: 2px 8px;
@@ -271,6 +305,7 @@ a:hover {
 .badge-arxiv:hover {
   background-color: #d0e8ff;
 }
+*/
 
 /* Right-aligned Abstract toggle */
 .pub-list details {
