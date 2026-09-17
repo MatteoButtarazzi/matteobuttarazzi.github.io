@@ -1,86 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>CV | Matteo Buttarazzi</title>
-
-  <link rel="stylesheet" href="styles.css">
+  <title>Curriculum Vitae — Matteo Buttarazzi</title>
+  <meta name="description" content="Curriculum Vitae of Matteo Buttarazzi: academic positions and education in actuarial and financial mathematics.">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
-
 <body>
 
-  <!-- Keep your existing navigation/header here if it differs -->
-  <header class="site-header">
-    <a href="index.html" class="site-name">Matteo Buttarazzi</a>
-
-    <nav class="site-nav">
+<header>
+  <div class="container">
+    <h1>Matteo Buttarazzi</h1>
+    <nav>
       <a href="index.html">Home</a>
+      <a href="cv.html" class="active">Curriculum Vitae</a>
       <a href="research.html">Research</a>
-      <a href="cv.html" class="active">CV</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-
-  <main class="cv-page">
-
-    <!-- =========================
-         CV HEADER
-    ========================== -->
+<main>
+  <section>
 
     <div class="cv-heading-row">
-
-      <div class="cv-heading-text">
+      <div>
         <p class="cv-label">Curriculum Vitae</p>
         <h2 class="cv-title">Positions &amp; Education</h2>
       </div>
 
-      <a
-        href="asset/CV.pdf"
-        class="cv-download-button"
-        download
-      >
+      <a href="asset/CV.pdf"
+         class="cv-download-button"
+         target="_blank"
+         download>
         Download CV
       </a>
-
     </div>
 
-
-    <!-- =========================
-         POSITIONS & EDUCATION
-    ========================== -->
-
-    <section class="cv-section">
-
+    <div class="cv-section">
+      <h3>Current position</h3>
       <ul class="cv-list">
-
         <li>
           <span class="period">2026 – Ongoing</span>
-
-          <span class="cv-entry-text">
-            Postdoctoral Researcher, Department of Mathematics,
-            Uppsala University.
-          </span>
+          <span class="cv-entry-text">Postdoctoral Researcher, Department of Mathematics, Uppsala University.</span>
         </li>
+      </ul>
+    </div>
 
+    <div class="cv-section">
+      <h3>Previous academic positions</h3>
+      <ul class="cv-list">
+        <li>
+          <span class="period">2025 – 2026</span>
+          <span class="cv-entry-text">Postdoctoral Researcher, ESOMAS Department, University of Turin.</span>
+        </li>
 
         <li>
-          <span class="period">2025</span>
+          <span class="period">2024 – 2025</span>
+          <span class="cv-entry-text">Postdoctoral Researcher, MEMOTEF Department, Sapienza University of Rome.</span>
+        </li>
+      </ul>
+    </div>
 
-          <span class="cv-entry-text">
-            PhD in Mathematics for Economic-Financial Applications,
-            MEMOTEF Department, Sapienza University of Rome.
-          </span>
+    <div class="cv-section">
+      <h3>Education</h3>
+      <ul class="cv-list">
+        <li>
+          <span class="period">2025</span>
+          <span class="cv-entry-text">PhD in Mathematics for Economic-Financial Applications, MEMOTEF Department, Sapienza University of Rome.</span>
         </li>
 
+        <li>
+          <span class="period">2020</span>
+          <span class="cv-entry-text">MSc in Finance, Luiss Guido Carli University.</span>
+        </li>
       </ul>
+    </div>
 
-    </section>
+  </section>
+</main>
 
-  </main>
+<footer>
+  <p>&copy; 2026 Matteo Buttarazzi · Department of Mathematics, Uppsala University</p>
+</footer>
 
 </body>
-
 </html>
