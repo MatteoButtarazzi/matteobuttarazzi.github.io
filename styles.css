@@ -168,13 +168,6 @@ a:hover {
 .cv-section {
   margin-top: 1.5rem;
 }
-.cv-section h3 {
-  border-bottom: 2px solid #eaecef;
-  padding-bottom: 0.3rem;
-  margin-bottom: 0.75rem;
-  color: #006699;
-  font-size: 1.25rem;
-}
 .cv-list {
   list-style: none;
   padding-left: 0;
