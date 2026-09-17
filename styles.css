@@ -227,8 +227,8 @@ a:hover {
   margin-bottom: 0.65rem;
   padding-left: 0.75rem;
   border-left: 2px solid #eaecef;
-  font-size: 0.92rem;
-  line-height: 1.35;
+  font-size: 1rem;
+  line-height: 1.6;
   transition: border-color 0.2s;
 }
 .pub-list li:hover {
