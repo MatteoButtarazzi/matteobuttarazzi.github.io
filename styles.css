@@ -43,9 +43,10 @@ nav a {
   border-bottom: 2px solid transparent;
   transition: color 150ms ease, border-color 150ms ease;
 }
+
 nav a:hover {
   color: #fff;
-  border-bottom-color: transparent;
+  border-bottom-color: rgba(255, 255, 255, 0.45);
   text-decoration: none;
 }
 
