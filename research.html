@@ -3,150 +3,134 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Matteo Buttarazzi - Research</title>
-  
+  <title>Research — Matteo Buttarazzi</title>
+  <meta name="description" content="Research interests and publications of Matteo Buttarazzi: optimal stopping, free-boundary problems, insurance and mathematical finance, partial information and filtering.">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-  <div class="container">
-    <h1>Matteo Buttarazzi</h1>
-    <nav>
-      <a href="index.html">Home</a> 
-      <a href="cv.html">Curriculum Vitae</a> 
-      <a href="research.html">Research</a>
-    </nav>
-  </div>
-</header>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="site-title">Matteo Buttarazzi</a>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="cv.html" class="nav-link">Curriculum Vitae</a>
+        <a href="research.html" class="nav-link active">Research</a>
+      </nav>
+    </div>
+  </header>
 
-  <main>
-<section>
+  <main class="page-container">
+    <p class="section-eyebrow">Research</p>
+    <h1 class="page-title">Interests &amp; Publications</h1>
 
-  <p><strong>Research Interests</strong></p>
-  <ul>
-    <li>Optimal Stopping, Free-boundary Problems, Insurance and Mathematical Finance, Partial Information and Filtering.</li>
-  </ul>
+    <p class="intro-text">
+      My research interests include optimal stopping and free boundary problems, optimal control, problems with partial information and filtering techniques. The studied problems are motivated by financial and actuarial applications.
+    </p>
 
-<br>
-  <p><strong>Publications</strong></p>
+    <!-- Publications -->
+    <section>
+      <h2 class="section-title">Publications</h2>
+      <div class="accent-line"></div>
+      <div class="paper-list">
+        <article class="paper-card">
+          <h3 class="paper-title">Filtering in a hazard rate change-point model and financial applications</h3>
+          <p class="paper-meta">M. Buttarazzi, C. Ceci · 2026 · International Journal of Theoretical and Applied Finance</p>
+          <div class="paper-actions">
+            <a href="https://doi.org/10.1142/S0219024926500032" target="_blank" rel="noreferrer" class="badge badge-neutral">Journal article</a>
+            <a href="https://arxiv.org/abs/2505.13185" target="_blank" rel="noreferrer" class="badge badge-arxiv">ArXiv</a>
+          </div>
+          <details>
+            <summary>Abstract ▾</summary>
+            <div class="abstract-body">
+              This paper develops a continuous-time filtering framework for estimating a hazard rate subject to an unobservable change-point. This framework naturally arises in both financial and insurance applications, where the default intensity of a firm or the mortality rate of an individual may experience a sudden jump at an unobservable time, representing, for instance, a shift in the firm's risk profile or a deterioration in an individual's health status. By employing a progressive enlargement of filtration, we integrate noisy observations of the hazard rate with default-related information. We characterise the filter, i.e. the conditional probability of the change-point given the information flow, as the unique strong solution to a stochastic differential equation driven by the innovation process enriched with the discontinuous component. A sensitivity analysis and a comparison of the filter's behaviour under various information structures are provided. Our framework further allows for the derivation of an explicit formula for the survival probability conditional on partial information. This result applies to the pricing of credit-sensitive financial instruments such as defaultable bonds, credit default swaps, and life insurance contracts. Finally, a numerical analysis illustrates how partial information leads to delayed adjustments in the estimation of the hazard rate and consequently to mispricing of credit-sensitive instruments when compared to a full-information setting.
+            </div>
+          </details>
+        </article>
 
-<ul class="pub-list">
+        <article class="paper-card">
+          <h3 class="paper-title">The market value of optimal annuitization and bequest motives</h3>
+          <p class="paper-meta">M. Buttarazzi, G. Stabile · 2024 · Mathematical and Statistical Methods for Actuarial Sciences and Finance, Springer</p>
+          <div class="paper-actions">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-64273-9_12" target="_blank" rel="noreferrer" class="badge badge-neutral">Journal article</a>
+          </div>
+          <details>
+            <summary>Abstract ▾</summary>
+            <div class="abstract-body">
+              Since the seminal contribution of Yaari (1965), who showed that individuals with no bequest motive should convert all their retirement wealth into annuities, a number of papers have analysed the annuitization decision under the so-called all or nothing institutional arrangement, where immediate lifetime annuities are purchased just at a one point in time. In this paper, we investigate the effect of linear bequest motives on the annuitization decision for a retired individual who maximizes the market value of future cash flows. Finally, we present numerical examples analyzing optimal annuitization under strong or weak bequest motives.
+            </div>
+          </details>
+        </article>
+      </div>
+    </section>
 
-<li>
-M. Buttarazzi and <a href="https://scholar.google.com/citations?user=CwRXKIoAAAAJ" target="_blank" class="author-link">C. Ceci</a> (2026),
-[<a href="https://doi.org/10.1142/S0219024926500032" target="_blank">Journal article</a>]
-[<a href="https://arxiv.org/abs/2505.13185" target="_blank">ArXiv</a>]
+    <!-- Submitted Papers -->
+    <section>
+      <h2 class="section-title">Submitted Papers</h2>
+      <div class="accent-line"></div>
+      <div class="paper-list">
+        <article class="paper-card">
+          <h3 class="paper-title">Optimal Annuitization with stochastic mortality: Piecewise Deterministic Mortality Force</h3>
+          <p class="paper-meta">M. Buttarazzi, T. De Angelis, G. Stabile · 2025 · Submitted</p>
+          <div class="paper-actions">
+            <a href="https://arxiv.org/abs/2502.13837" target="_blank" rel="noreferrer" class="badge badge-arxiv">ArXiv</a>
+          </div>
+          <details>
+            <summary>Abstract ▾</summary>
+            <div class="abstract-body">
+              We examine the lifetime asset allocation and annuitization problem for a retiree under a stochastic mortality framework, where the hazard rate of death follows a piecewise deterministic Markov process (PDMP). The retiree seeks to maximize the expected discounted utility from consumption, bequest, and remaining wealth upon complete conversion of assets into annuities. We formulate the problem as a stochastic control problem with optimal stopping, deriving the Hamilton-Jacobi-Bellman (HJB) variational inequality and providing a complete verification theorem. Numerical experiments illustrate how sudden changes in health status drastically alter the optimal timing of annuitization.
+            </div>
+          </details>
+        </article>
 
-<br>
+        <article class="paper-card">
+          <h3 class="paper-title">Pricing Options in a Duopoly Game with Asymmetric Information</h3>
+          <p class="paper-meta">M. Buttarazzi · 2024 · Submitted</p>
+          <div class="paper-actions">
+            <a href="https://arxiv.org/abs/2410.13426" target="_blank" rel="noreferrer" class="badge badge-arxiv">ArXiv</a>
+          </div>
+          <details>
+            <summary>Abstract ▾</summary>
+            <div class="abstract-body">
+              We analyze an American-style duopoly option game where two competing firms hold the option to enter an emerging market under asymmetric information regarding market demand. One firm has superior informational flow modeled as a filtered probability space with a progressive enlargement. We characterize the Bayesian-Nash equilibrium of the game through a system of coupled free-boundary problems. The resulting preemption and attrition equilibria show that information advantages create strategic delays, altering the threshold boundary at which exercise occurs.
+            </div>
+          </details>
+        </article>
+      </div>
+    </section>
 
-<em>Filtering in a hazard rate change-point model and financial applications, </em> <br>
-<span class="journal">International Journal of Theoretical and Applied Finance.</span>
-<details class="abstract-box">
-  <summary>Abstract</summary>
-  <p>This paper develops a continuous-time filtering framework for estimating a hazard rate subject to an unobservable change-point. 
-    This framework naturally arises in both financial and insurance applications, where the default intensity of a firm or the 
-    mortality rate of an individual may experience a sudden jump at an unobservable time, representing, for instance, a shift in the 
-    firm's risk profile or a deterioration in an individual's health status. By employing a progressive enlargement of filtration, 
-    we integrate noisy observations of the hazard rate with default-related information. We characterise the filter, i.e. the conditional 
-    probability of the change-point given the information flow, as the unique strong solution to a stochastic differential equation driven 
-    by the innovation process enriched with the discontinuous component. A sensitivity analysis and a comparison of the filter's behaviour 
-    under various information structures are provided. Our framework further allows for the derivation of an explicit formula for the 
-    survival probability conditional on partial information. This result applies to the pricing of credit-sensitive financial instruments 
-    such as defaultable bonds, credit default swaps, and life insurance contracts. Finally, a numerical analysis illustrates how partial 
-    information leads to delayed adjustments in the estimation of the hazard rate and consequently to mispricing of credit-sensitive 
-    instruments when compared to a full-information setting.</p>
-</details>
-</li>
+    <!-- PhD Thesis -->
+    <section>
+      <h2 class="section-title">PhD Thesis</h2>
+      <div class="accent-line"></div>
+      <div class="paper-list">
+        <article class="paper-card">
+          <h3 class="paper-title">Mathematical models for optimal annuitization</h3>
+          <p class="paper-meta">Matteo Buttarazzi · 2025 · Sapienza University of Rome</p>
+          <div class="paper-actions">
+            <a href="https://iris.uniroma1.it/handle/11573/1737175" target="_blank" rel="noreferrer" class="badge badge-neutral">PDF</a>
+          </div>
+          <details>
+            <summary>Abstract ▾</summary>
+            <div class="abstract-body">
+              Purchasing an annuity is one of the most significant financial choices individuals can make for retirement. Lifetime annuities provide guaranteed income until death, thereby eliminating longevity risk. Despite theoretical models predicting complete annuitization under certain conditions, empirical evidence reveals that individuals rarely annuitize their entire wealth—a phenomenon known as the annuity puzzle. This thesis investigates mathematical models for optimal annuitization to better understand decision-making under uncertainty, mortality risk, and bequest motives.
+            </div>
+          </details>
+        </article>
+      </div>
+    </section>
+  </main>
 
-
-
-<li>
-M. Buttarazzi and <a href="https://scholar.google.com/citations?user=CVLIqPEAAAAJ" target="_blank" class="author-link">G. Stabile</a> (2024),
-[<a href="https://link.springer.com/chapter/10.1007/978-3-031-64273-9_12" target="_blank">Journal article</a>]
-<br>
-
-<em>The market value of optimal annuitization and bequest motives</em>,<br>
-<span class="journal">Mathematical and Statistical Methods for Actuarial Sciences and Finance, Springer.</span>
-<details class="abstract-box">
-  <summary>Abstract</summary>
-  <p>Since the seminal contribution of Yaari (1965), who showed that individuals with no bequest motive should convert all their 
-    retirement wealth into annuities, a number of papers have analysed the annuitization decision under the so-called all or nothing 
-    institutional arrangement, where immediate lifetime annuities are purchased just at a one point in time. In this paper, we investigate 
-    the effect of linear bequest motives on the annuitization decision for a retired individual who maximizes the market value of future 
-    cash flows. Finally, we present numerical examples analyzing optimal annuitization under strong or weak bequest motives.</p>
-</details>
-</li>
-
-</ul>
-
-<br/>
-<p><strong>Submitted papers</strong></p>
-
-<ul class="pub-list">
-
-<li>
-M. Buttarazzi, <a href="https://sites.google.com/site/tizianodeangelis/home?authuser=0" target="_blank" class="author-link">T. De Angelis</a> and <a href="https://scholar.google.com/citations?user=CVLIqPEAAAAJ" target="_blank" class="author-link">G. Stabile</a> (2025),
-[<a href="https://arxiv.org/abs/2509.13091" target="_blank">ArXiv</a>]
-<br>
-
-<em>Optimal Annuitization with stochastic mortality: Piecewise Deterministic Mortality Force. </em>
-<details class="abstract-box">
-  <summary>Abstract</summary>
-  <p>This paper addresses the problem of determining the optimal time for an individual to convert retirement savings into a lifetime 
-    annuity. The individual invests their wealth into a dividend-paying fund that follows the dynamics of a geometric Brownian motion, 
-    exposing them to market risk. At the same time, they face an uncertain lifespan influenced by a stochastic mortality force. 
-    The latter is modelled as a piecewise deterministic Markov process (PDMP), which captures sudden and unpredictable changes in the 
-    individual's mortality force. The individual aims to maximise expected lifetime linear utility from consumption and bequest, 
-    balancing market risk and longevity risk under an irreversible, all-or-nothing annuitization decision. The problem is formulated 
-    as a three-dimensional optimal stopping problem and, by exploiting the PDMP structure, it is reduced to a sequence of nested 
-    one-dimensional problems. We solve the optimal stopping problem and find a rich structure for the optimal annuitization rule, 
-    which cover all parameter specifications. Our theoretical analysis is complemented by a numerical example illustrating the 
-    impact of a single health shock on annuitization timing, along with a sensitivity analysis of key model parameters.</p>
-</details>
-</li>
-
-<li>
-M. Buttarazzi (2025), 
-[<a href="https://arxiv.org/abs/2604.09342v1" target="_blank">ArXiv</a>]
-<br>
-<em>The Impact of a Health Shock on the Optimal Annuitization Time.</em>
-<details class="abstract-box">
-  <summary>Abstract</summary>
-  <p>In this paper, we derive explicit closed-form solutions for the value function and the associated optimal stopping boundaries 
-    in an optimal annuitization problem under a mortality shock. We consider an individual whose retirement wealth is invested in a 
-    financial fund following the dynamics of a geometric Brownian motion and has the option at any time to irreversibly convert their 
-    wealth into a life annuity. The individual faces a sudden, permanent health deterioration occurring at a random, exponentially 
-    distributed time, and the annuitization decision is modelled as an optimal stopping problem across two health states. Our analytical expressions characterise both the value function and the optimal 
-    timing of annuitization. The results provide clear economic intuition: the optimal strategy is governed by the critical 
-    interplay between the relative attractiveness of the annuity (money's worth), the financial returns from the investment fund, 
-    and bequest motives across different health states. A numerical analysis compares the optimal annuitization strategy of an 
-    individual facing a health shock against a benchmark case with constant mortality, highlighting how the likelihood and severity 
-    of a health shock significantly alter optimal annuitization behaviour.</p>
-</details>
-</li>
-
-</ul>
-  
-<br>
-<p><strong>PhD Thesis</strong></p>
-
-<ul class="pub-list">
-
-<li>
-M. Buttarazzi (2025),
-[<a href="https://iris.uniroma1.it/handle/11573/1737175" target="_blank">pdf</a>]
-<br>
-
-<em>Optimal annuitization time under piecewise deterministic mortality force, </em> <br>
-PhD Thesis, Sapienza University of Rome.
-</li>
-
-</ul>
-
-</section>
-
-</main>
-
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>© 2026 Matteo Buttarazzi</p>
+      <p>
+        Department of Mathematics, Uppsala University · 
+        <a href="mailto:matteo.buttarazzi@math.uu.se">matteo.buttarazzi@math.uu.se</a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
