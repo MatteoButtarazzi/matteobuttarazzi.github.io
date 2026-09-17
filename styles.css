@@ -45,12 +45,14 @@ nav a {
 }
 nav a:hover {
   color: #fff;
-  border-bottom-color: rgba(255, 255, 255, 0.6);
+  border-bottom-color: transparent;
+  text-decoration: none;
 }
+
 nav a.active {
   color: #fff;
   font-weight: 600;
-  border-bottom-color: transparent;
+  border-bottom-color: #fff;
 }
 
 /* ===== Main content sheet ===== */
