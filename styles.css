@@ -176,15 +176,32 @@ a:hover {
   padding-left: 0;
 }
 .cv-list li {
-  margin-bottom: 0.6rem;
-  padding-left: 0;
-  line-height: 1.5;
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 1.25rem;
+  align-items: start;
 }
+
 .cv-list .period {
-  display: inline-block;
-  min-width: 140px;
-  font-weight: 500;
-  color: #586069;
+  white-space: nowrap;
+}
+
+.cv-entry-text {
+  min-width: 0;
+}
+
+@media (max-width: 700px) {
+  .cv-list li {
+    grid-template-columns: max-content minmax(0, 1fr);
+    column-gap: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cv-list li {
+    grid-template-columns: max-content minmax(0, 1fr);
+    column-gap: 0.6rem;
+  }
 }
 
 /* ===== Research page ===== */
@@ -469,7 +486,7 @@ footer {
      First column = date
      Second column = description
   */
-  grid-template-columns: 8.5rem minmax(0, 1fr);
+
 
   column-gap: 1.5rem;
 
@@ -507,7 +524,6 @@ footer {
   }
 
   .cv-list li {
-    grid-template-columns: 7.5rem minmax(0, 1fr);
     column-gap: 1rem;
   }
 
@@ -521,7 +537,6 @@ footer {
        Still TWO columns on phones.
        We deliberately do NOT stack the date above the text.
     */
-    grid-template-columns: 6.5rem minmax(0, 1fr);
     column-gap: 0.75rem;
   }
 
